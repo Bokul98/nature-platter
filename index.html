@@ -45,7 +45,9 @@
   </head>
   <body class="sora-font">
     <!-- Header Section -->
-    <header class="container mx-auto bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
+    <header
+      class="container mx-auto bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]"
+    >
       <!-- Nav Bar -->
       <nav class="">
         <div
@@ -138,15 +140,23 @@
         </div>
       </nav>
       <!-- Banner Section -->
-      <div class="flex flex-col gap-6 justify-center items-center pt-10 lg:pt-20">
+      <div
+        class="flex flex-col gap-6 justify-center items-center py-10 lg:py-20"
+      >
         <!-- Banner content -->
         <div class="text-center">
           <h1 class="font-bold text-3xl lg:text-5xl">
-            Freshness <span class="text-color-primary">You Can <br> Count </span> On,
-            Prices You’ll Love!
+            Freshness
+            <span class="text-color-primary"
+              >You Can <br />
+              Count
+            </span>
+            On, Prices You’ll Love!
           </h1>
           <p class="lg:text-[20px] text-center py-4 px-2 lg:py-7">
-            Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!
+            Shop your daily essentials at unbeatable prices. From fresh produce
+            to pantry <br />
+            staples, we’ve got you covered every day!
           </p>
         </div>
         <!-- Banner Image -->
@@ -156,10 +166,74 @@
       </div>
     </header>
     <!-- Main Section -->
-    <main class="">
-      
+    <main class="container mx-auto">
+      <!-- Service Section -->
+      <div class="service my-20 flex flex-col gap-6">
+        <h1 class="text-3xl text-color-primary font-semibold pl-4">Service</h1>
+        <!-- Start Card -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 px-4">
+            <!-- Card 1 -->
+            <div class="flex flex-col gap-6 items-center text-center bg-[#EFEBE3]  p-6 rounded-[16px]">
+                <div class="bg-white rounded-full p-4">
+
+                    <img src="assets/service.png" alt="service">
+                </div>
+                <h1 class="font-bold">24/7 Service</h1>
+                <p>Get 24/7 support—always ready, anytime you need us, day or night. Your convenience is our priority!</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="flex flex-col gap-6 items-center text-center bg-[#EFEBE3] p-6 rounded-[16px]">
+                <div class="bg-white rounded-full p-4">
+
+                    <img src="assets/delivery.png" alt="delivery">
+                </div>
+                <h1 class="font-bold">Fast Delivery</h1>
+                <p>"Enjoy lightning-fast delivery with our 24/7 express service—your order, delivered in no time!"</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="flex flex-col gap-6 items-center text-center bg-[#EFEBE3] p-6 rounded-[16px]">
+                <div class="bg-white rounded-full p-4">
+
+                    <img src="assets/healthy.png" alt="healthy">
+                </div>
+                <h1 class="font-bold">Healthy Products </h1>
+                <p>Enjoy fast delivery of fresh, organic, and nutritious healthy products right to your doorstep—hassle-free!</p>
+            </div>
+        </div>
+    </div>
     </main>
     <!-- Footer section -->
-    <footer></footer>
+    <footer>
+      <div class="bg-color-primary text-white">
+        <div
+          class="flex flex-col lg:flex-row gap-6 px-6 lg:items-start justify-between pt-[280px] lg:pt-[300px] lg:px-32 pb-10 lg:pb-32"
+        >
+          <!-- 1st cols -->
+          <div>
+            <img src="assets/logo-footer.png" alt="" />
+            <p class="text-[#FFFFFFB3] text-wrap lg:w-[280px]">
+              Discover a world of treats, toys, and essentials handpicked for
+              your furry friends
+            </p>
+          </div>
+          <!-- 2nd cols -->
+          <div class="flex flex-col gap-4">
+            <a href="#">Product</a>
+            <a href="#">Service</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <!-- 3rd cols -->
+          <div class="flex flex-col gap-4">
+            <h1 class="text-xl">Follow Us</h1>
+            <div class="flex gap-3 text-2xl">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
