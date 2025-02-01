@@ -43,7 +43,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="sora-font">
+  <body class="sora-font overflow-x-hidden">
     <!-- Header Section -->
     <header
       class="container mx-auto bg-gradient-to-t from-[#f0ebe5] to-[#ffffff] min-h-screen"
@@ -162,6 +162,15 @@
         <!-- Banner Image -->
         <div class="">
           <img src="assets/hero-vegetables.png" alt="" class="" />
+        </div>
+        <!-- Animation -->
+        <div class="flex items-center justify-center">
+          <a href="#next-section" class="group flex flex-col items-center">
+            <div class="w-12 h-12 border-2 border-color-primary rounded-full flex items-center justify-center animate-bounce group-hover:animate-none">
+                <svg class="w-6 h-6 text-color-primary group-hover:translate-y-1 transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </div>
         </div>
       </div>
     </header>
